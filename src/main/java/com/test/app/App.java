@@ -1,9 +1,13 @@
 package com.test.app;
 
+
+
 public class App {
 	
-	public void addData() {
-		System.out.println("Add Data() Method");
+	public void addData(String data){
+		if(data.equals("TEST")) {
+			System.out.println("Welcome");
+		}
 	}
 
 	public static void main(String[] args) {
